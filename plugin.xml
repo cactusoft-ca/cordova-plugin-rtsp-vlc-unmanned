@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <plugin xmlns="http://apache.org/cordova/ns/plugins/1.0"
-		xmlns="http://schemas.android.com/apk/res/android"
+		xmlns:android="http://schemas.android.com/apk/res/android"
 		id="cordova-plugin-rtsp-vlc-unmanned"
 		version="1.4.1">
 
