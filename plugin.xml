@@ -71,7 +71,7 @@
 					<source url="https://cdn.cocoapods.org/"/>
 				</config>
 				<pods use-frameworks="true">
-					<pod name="MobileVLCKit" spec="3.7.2" />
+					<pod name="MobileVLCKit" spec="3.1.5" />
 				</pods>
 			</podspec>
             <framework src="/usr/lib/libbz2.dylib" />
