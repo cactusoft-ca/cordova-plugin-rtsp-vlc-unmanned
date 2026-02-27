@@ -44,12 +44,12 @@
     [self.view addConstraint:mediaViewWidthConstraint];
     [self.view addConstraint:mediaViewHeightConstraint];
     [self.view addConstraint:mediaViewCenterHorizontallyConstraint];
-    
-    self.mediaPlayer.drawable = self.mediaView;    
 }
 
 - (void)viewDidAppear:(BOOL)animated{
     [super viewDidAppear:animated];
+    // Ensure the drawable is set when the view is actually in the hierarchy
+    self.mediaPlayer.drawable = self.mediaView;
     if (self.playOnStart) {
         [self play];
     }

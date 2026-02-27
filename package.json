@@ -1,6 +1,6 @@
 {
   "name": "cordova-plugin-rtsp-vlc-unmanned",
-  "version": "1.4.3",
+  "version": "1.4.4",
   "description": "Cordova RTSP player",
   "cordova": {
     "id": "cordova-plugin-rtsp-vlc-unmanned",
