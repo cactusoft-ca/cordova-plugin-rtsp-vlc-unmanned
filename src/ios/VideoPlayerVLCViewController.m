@@ -31,9 +31,9 @@
     
     self.mediaView = [[UIView alloc] init];
     self.mediaPlayer = [[VLCMediaPlayer alloc] initWithOptions:@[
-        @"--network-caching=300", 
-        @"--no-videotoolbox",
-        @"--avcodec-hw=none"
+        @"--network-caching=150",
+        @"--clock-jitter=0",
+        @"--clock-synchro=0",
     ]];
         
     self.mediaView.translatesAutoresizingMaskIntoConstraints = NO;

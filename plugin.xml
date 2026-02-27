@@ -2,7 +2,7 @@
 <plugin xmlns="http://apache.org/cordova/ns/plugins/1.0"
 		xmlns:android="http://schemas.android.com/apk/res/android"
 		id="cordova-plugin-rtsp-vlc-unmanned"
-		version="1.4.6">
+		version="1.4.7">
 
 		<name>vlcstreamplayer</name>
 		<description>VLC Stream Player</description>
@@ -71,7 +71,7 @@
 					<source url="https://cdn.cocoapods.org/"/>
 				</config>
 				<pods use-frameworks="true">
-					<pod name="MobileVLCKit" spec="3.7.2" />
+					<pod name="MobileVLCKit" spec="3.1.5" />
 				</pods>
 			</podspec>
             <framework src="/usr/lib/libbz2.dylib" />
