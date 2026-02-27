@@ -30,7 +30,10 @@
     
     
     self.mediaView = [[UIView alloc] init];
-    self.mediaPlayer = [[VLCMediaPlayer alloc] initWithOptions:@[@"--network-caching=150 --clock-jitter=0 --clock-synchro=0"]];
+    self.mediaPlayer = [[VLCMediaPlayer alloc] initWithOptions:@[
+        @"--network-caching=300", 
+        @"--no-videotoolbox"
+    ]];
         
     self.mediaView.translatesAutoresizingMaskIntoConstraints = NO;
     self.mediaView.backgroundColor = [UIColor blackColor];
